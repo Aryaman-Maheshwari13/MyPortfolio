@@ -252,6 +252,14 @@ body {
   left: 80%;
 }
 
+.blueZ{
+    background-color: #add8e6;
+  width: 140px;
+  height: 140px;
+  top: 50%;
+  left: 50%;
+}
+
 .orange3 {
     background-color: #ffcfb3;
   width: 120px;
@@ -504,3 +512,43 @@ body {
     .skill-card3:hover {
       transform: translateY(-5px);
     }
+
+#hobbies {
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  color: #333;
+}
+
+#hobbies h2 {
+  font-size: 40px;
+  color: #23003c;
+  margin-bottom: 20px;
+}
+
+.animated-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.animated-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 0.6s ease forwards;
+}
+
+.animated-list li:nth-child(1) { animation-delay: 0.2s; }
+.animated-list li:nth-child(2) { animation-delay: 0.4s; }
+.animated-list li:nth-child(3) { animation-delay: 0.6s; }
+.animated-list li:nth-child(4) { animation-delay: 0.8s; }
+.animated-list li:nth-child(5) { animation-delay: 1s; }
+.animated-list li:nth-child(6) { animation-delay: 1.2s; }
+.animated-list li:nth-child(7) { animation-delay: 1.4s; }
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
