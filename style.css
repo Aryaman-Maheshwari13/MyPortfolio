@@ -1,0 +1,78 @@
+@keyframes fadeIn 
+        {
+        from { opacity: 0; }
+        to { opacity: 1; }
+        }
+.fadein
+{
+animation-name: fadeIn; 
+animation-duration: 0.65s;
+animation-timing-function: ease-in;
+animation-fill-mode: forwards;
+}
+.strip
+{
+background-color: #22223B;
+width: 100%;
+}
+.button1
+{
+  padding: 15px 30px;
+  font-size: 27px;  
+  background-color: rgba(0, 0, 0, 0); 
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.button1:hover
+{
+  background-color: #0000002b;
+  transform: scale(1.5);
+}
+input[type=text], select, textarea {
+  width: 50%;
+  background-color: #ffb6c1;
+  padding: 12px;
+  border: 2px solid #23003c;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input::placeholder 
+{
+  background-color: #ffb6c1;
+  border: 2px;
+  border-radius: 25px;
+  color: #23003c8a;
+  opacity: 1;
+}
+input[type=submit] 
+{
+  background-color: #ffb6c1;
+  color: #23003c8a;
+  padding: 12px 20px;
+  border: 2px solid #23003c;
+  border-radius: 25px;
+  cursor: pointer;
+}
+input[type=submit]:hover 
+{
+  background-color: #23003c;
+  color: rgba(200, 163, 255, 0.712); 
+}
+textarea::placeholder
+{
+  color: #23003c8a;
+}
+.container
+{
+  text-align: center;
+  border: 5px solid #23003c;
+  border-radius: 25px;
+  float: right;
+  background-color: rgba(200, 163, 255, 0.473);
+  padding: 20px;
+}
